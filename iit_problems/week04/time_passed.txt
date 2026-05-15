@@ -1,0 +1,7 @@
+Move to a folder called "assignments" or create one if doesn't exits
+write a python application called "time_passed.py"
+You need to write a program which will repeat a print action after a certain number of seconds for a given number of times
+prompt users to enter how many times they want this to repeat 
+then prompt the user to enter the number of seconds they want to assign as the interval
+when you run the program, it should print the following
+"{no of seconds} has passed"

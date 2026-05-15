@@ -1,6 +1,11 @@
-# import re
-# text = "tea, sugar/salt & chilli powder"
-# match = re.split(r"[,/&]", text)
-# print(match[3].strip())
+from datetime import datetime
+seconds = 0
 
-#Hello
+for i in range(5):
+    this_sec = int(datetime.now().strftime("%S"))
+    while True:
+        next_sec = int(datetime.now().strftime("%S"))
+        if next_sec == this_sec+2:
+            seconds = seconds + 2
+            print(f"{seconds} seconds passed by")
+            break
