@@ -1,0 +1,14 @@
+Sales team performance grading
+
+Move to a folder called assignments or create one if it doesn’t exist.
+Write a Python application called sales_team_performance_grading.py
+
+The application should prompt users to enter the name and the monthly sales target hit by each salesman
+The application should write the data into a file called monthly_sales.csv with the headers ["Name", "Monthly sale value"]
+The data entry can stop by initiating an EOFError or by entering "done" at any point
+When the application ends, it should create a new file called "categorised.csv" and this should have three headers ["low", "medium", "high"]
+The sales category vs range is as follows:
+low = 10000-100000
+medium = 100000 - 500000
+high = 500000 - 1000000
+The names of the sales people must be automatically entered into these columns depending on their monthly sales target achieved

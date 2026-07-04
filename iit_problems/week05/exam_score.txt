@@ -1,0 +1,24 @@
+Exam score
+
+Move to a folder called assignments or create one if it doesn’t exist.
+Write a Python application called exam_score.py
+
+Create a function called: calculate_averag()
+
+This function should:
+Accept any number of marks using *args
+Return the average mark
+
+Create another function called: find_grade()
+Expected Features
+Handle invalid numeric input using exceptions
+Print the final average and grade
+The user must enter at least 5 subject marks
+
+Grade Rules
+Average	Grade
+75 and above => A
+60 - 74	=> B
+50 - 64	=> C
+30 - 49 => D
+Below 30 => F

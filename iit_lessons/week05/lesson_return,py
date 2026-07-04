@@ -1,0 +1,21 @@
+# def addition(*values):
+# 	return sum(values)
+
+# addition_ = addition(10,20,30,40,50)
+
+# print(addition_)
+
+# def capitalize(word):
+# 	return word.capitalize()
+
+# print(capitalize("hello"))
+
+# def character_wordCount(text):
+# 	characters = len(text)
+# 	word_count = len(text.split())
+# 	return characters, word_count
+
+# text = "When shadows stretch across the land, And worries rise like grains of sand, Remember storms don’t always stay, The darkest night still meets the day. A single spark, a hopeful mind, Can leave a thousand fears behind. Each stumble teaches how to grow, Like rivers carving paths they know. The mountains high may test your will, Yet patient hearts keep climbing still. For every dream that feels far away, Begins with courage found today. So hold your hope through joy and strain, Like flowers blooming after rain. For brighter roads are often made, By those who walk though skies turn gray."
+
+# characters, word_count = character_wordCount(text)
+# print(f"This poem has {characters} characters and {word_count} words")

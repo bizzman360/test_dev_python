@@ -1,0 +1,3 @@
+Welcome to the Professional Development Unit at Informatics Institute Of Technology.
+You are learning about how to read and write with .txt files
+Now we are also writing each line to a dictionary

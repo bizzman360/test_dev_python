@@ -1,0 +1,24 @@
+Calculator
+
+Move to a folder called assignments or create one if it doesn’t exist.
+Write a Python application called calculator_hub.py
+
+Requirements
+
+Create the following functions:
+add(num1, num2)
+subtract(num1, num2)
+multiply(num1, num2)
+divide(num1, num2)
+
+Prompt the user to:
+Enter the first number
+Enter the second number
+Enter the mathematical operation they want to perform
+
+Expected Features
+Use functions for each operation
+Use return statements
+Handle division by zero using exceptions
+If the user enters invalid input, show:
+"Invalid input detected"
